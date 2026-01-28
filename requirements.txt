@@ -1,0 +1,37 @@
+# TASE Stock AI Agent - Dependencies
+
+# Data Sources
+tasepy>=0.2.1              # TASE DataWise API
+yfinance>=0.2.40           # Yahoo Finance historical data
+
+# Technical Analysis
+pandas-ta>=0.3.14b         # 150+ technical indicators
+
+# AI/LLM
+google-generativeai>=0.8.0 # Gemini API
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP & Web Scraping
+httpx>=0.25.0              # Async HTTP client
+beautifulsoup4>=4.12.0     # HTML parsing
+lxml>=5.0.0                # Fast HTML parser
+
+# CLI
+rich>=13.0.0               # Beautiful CLI output
+click>=8.1.0               # CLI framework
+
+# Configuration
+python-dotenv>=1.0.0       # Environment variables
+pydantic>=2.0.0            # Data validation
+pydantic-settings>=2.0.0   # Settings management
+
+# Async Support
+asyncio-throttle>=1.0.0    # Rate limiting
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.0.0
